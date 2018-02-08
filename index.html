@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Sample Website
+        </title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="topnav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="topnav-right"><a href="#signup">SignUp</a></li>
+                <li class="topnav-right"><a href="#signin">SignIn</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu();">&#9776;</a></li>
+            </ul>
+        </nav>
+        <div class="container" id="section_1_gredient">
+            <div class="row">
+                <div class="col_6">
+                  <div class="left_side_col">
+                    <h1 class="large">Crazy Radness</h1>
+                      <h1 class="large">Made for Devslopers</h1>
+                  </div> 
+                  <form>
+                      <div class="left_side_col">
+                        <h2>Username</h2>
+                        <input type="text" name="username" class="inputbox" placeholder="Username"/> 
+                        <h2>Password</h2> 
+                        <input class="inputbox" type="text" placeholder="password" />  
+                      </div>
+                  </form>    
+                </div>
+                <div class="col_6">
+                    <div class="right_side_col vediofrm">
+<!--                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8rxuRX9fM5k" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+            <h1 class="section2_header">
+             The Standards of awesomeness
+            </h1>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col_4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="dev.png"/>
+                        </div>
+                        <label>Chat with me</label>
+                        <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the    
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="col_4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="dev.png"/>
+                        </div>
+                        <label>Chat with me</label>
+                        <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   
+                        </p>
+                    </div>
+                </div>
+                <div class="col_4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="dev.png"/>
+                        </div>
+                        <label>Chat with me</label>
+                        <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the    
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col_12">
+                    <button class="learnMore">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col_7">
+                    <article>
+                         <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the text of the printing  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the        
+                        </p>
+                    </article>
+                </div>
+                <div class="col_5">
+                    <div class="slopeIcon">
+                        <img src="iOS.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footsy">
+            <div class="row">
+                <div class="col_3 mobilestack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>Leather</li>
+                        <li>Priting</li>
+                        <li>Advertise</li>
+                        <li>Sales</li>
+                    </ul>
+                </div>
+                <div class="col_3 mobilestack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>Leather</li>
+                        <li>Priting</li>
+                        <li>Advertis</li>
+                        <li>Sales</li>
+                    </ul>
+                </div>
+                <div class="col_3 mobilestack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>Leather</li>
+                        <li>Priting</li>
+                        <li>Advertise</li>
+                        <li>Sales</li>
+                    </ul>
+                </div>
+                <div class="col_3 mobilestack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>Leather</li>
+                        <li>Priting</li>
+                        <li>Advertis</li>
+                        <li>Sales</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+    <script>
+       function dropdownMenu() {
+           var x = document.getElementById("topnav");
+           if(x.className === "topnav") {
+               x.className += " responsive";
+           } else {
+               x.className = "topnav";
+           }
+       } 
+    </script>    
+        
+        
+    </body>
+</html>
